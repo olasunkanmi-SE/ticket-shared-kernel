@@ -1,0 +1,1 @@
+# ticket-shared-kernel
