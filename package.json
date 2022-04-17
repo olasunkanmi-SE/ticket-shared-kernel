@@ -1,5 +1,5 @@
 {
-  "name": "@olatickets/ticket-shared-kernel",
+  "name": "@tickets-microservice/ticket-shared-kernel",
   "version": "0.0.1",
   "description": "",
   "author": "",
