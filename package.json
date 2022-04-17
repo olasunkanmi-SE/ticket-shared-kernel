@@ -22,7 +22,7 @@
     "main": "./dist/main.js",
     "types": "./dist/main.d.ts",
     "files": [
-      "build/**/*"
+      "dist/**/*"
     ]
   },
   "dependencies": {
