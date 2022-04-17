@@ -1,6 +1,6 @@
 {
   "name": "@tickets-microservice/ticket-shared-kernel",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "author": "",
   "license": "UNLICENSED",
@@ -19,8 +19,8 @@
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json",
     "publish": "npm publish --access public ",
-    "main": "./dist/main.js",
-    "types": "./dist/main.d.ts",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
     "files": [
       "dist/**/*"
     ]
