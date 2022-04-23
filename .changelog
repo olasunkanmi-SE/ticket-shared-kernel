@@ -5,3 +5,7 @@ All notable changes to this project will be documented in this file.
 ## [0.0.7] - 2022-04-18
 
 created Audit mapper, base database model and result class
+
+## [0.0.8] - 2022-04-23
+
+created base document for mogodb models
