@@ -1,0 +1,19 @@
+name: CI for ticket shared kernel
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "16"
+      - name: ci for api
+        working-directory: ./api
+        run: |
+          npm ci
+          npm run build
