@@ -9,3 +9,7 @@ created Audit mapper, base database model and result class
 ## [0.0.8] - 2022-04-23
 
 created base document for mogodb models
+
+## [0.0.9] - 2022-04-23
+
+created context to retrieve user information while navigating through the application
