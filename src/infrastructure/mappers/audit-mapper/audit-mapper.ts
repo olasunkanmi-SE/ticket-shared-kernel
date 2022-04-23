@@ -1,5 +1,5 @@
 import { Injectable } from "@nestjs/common";
-import { BaseModel } from "src/infrastructure/sql";
+import { BaseModel } from "./../../../infrastructure/sql";
 import { Audit } from "./../../../domain/audit/audit";
 import { IMapper } from "./../mapper";
 
