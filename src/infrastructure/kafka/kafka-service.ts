@@ -1,17 +1,17 @@
-import { ConfigService } from '@nestjs/config';
-import { Transport } from '@nestjs/microservices';
+import { ConfigService } from "@nestjs/config";
+import { Transport } from "@nestjs/microservices";
 
 export class KafkaService {
-  constructor(private readonly configService: ConfigService) {}
-  getOptions(groupId: string) {
+  constructor() {}
+  getOptions(groupId: string, broker: string) {
     return {
       transport: Transport.KAFKA,
       options: {
         client: {
-          brokers: [this.configService.get<string>('KAFKABROKER')],
+          brokers: [broker],
         },
         consumer: {
-          groupId: this.configService.get<string>(`${groupId}`),
+          groupId,
         },
       },
     };
