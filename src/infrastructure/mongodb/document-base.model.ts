@@ -1,5 +1,5 @@
+import { APIValidationMessages } from "./../../application/constants/validation";
 import { Prop, Schema } from "@nestjs/mongoose";
-import { APIValidationMessages } from "src/application/constants/validation";
 
 @Schema()
 export class DocumentBaseModel {

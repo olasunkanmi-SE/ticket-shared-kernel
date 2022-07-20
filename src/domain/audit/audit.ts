@@ -3,7 +3,7 @@ import { ValueObject } from "../value-object";
 import { IAuditProps } from "./audit.props";
 
 export class Audit extends ValueObject<IAuditProps> {
-  get createdBy(): string | undefined {
+  get createdBy(): string {
     return this.props.createdBy;
   }
 
@@ -15,7 +15,7 @@ export class Audit extends ValueObject<IAuditProps> {
     return this.props.deletedBy;
   }
 
-  get createdDateTime(): Date | undefined {
+  get createdDateTime(): Date {
     return this.props.createdDateTime;
   }
 
@@ -27,8 +27,8 @@ export class Audit extends ValueObject<IAuditProps> {
   }
 
   public static create(
-    createdBy?: string,
-    createdDateTime?: Date,
+    createdBy: string,
+    createdDateTime: Date,
     modifiedBy?: string,
     modifiedDateTime?: Date,
     deletedBy?: string,

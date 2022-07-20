@@ -5,10 +5,10 @@
  */
 
 export interface IAuditProps {
-  createdBy?: string;
+  createdBy: string;
   modifiedBy?: string;
   deletedBy?: string;
-  createdDateTime?: Date;
+  createdDateTime: Date;
   modifiedDateTime?: Date;
   deletedDateTime?: Date;
 }
