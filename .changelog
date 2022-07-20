@@ -10,14 +10,18 @@ created Audit mapper, base database model and result class
 
 created base document for mogodb models
 
-## [0.1.0] - 2022-04-23
+## [0.1.0] - 2022-07-20
 
 created context to retrieve user information while navigating through the application
 
-## [0.1.1] - 2022-04-23
+## [0.1.1] - 2022-07-21
 
 fix build errors
 
-## [0.1.1] - 2022-04-23
+## [0.1.1] - 2022-07-21
 
-Create Cache Module
+Create Cache Module and service
+
+## [0.1.1] - 2022-07-21
+
+Create Kafka module and service
