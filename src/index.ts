@@ -1,3 +1,5 @@
+import { KafkaService } from "./infrastructure/kafka/kafka-service";
+import { KafkaModule } from "./infrastructure/kafka/kafka-module";
 import { RedisCacheService } from "./infrastructure/cache/redis-service";
 import { RedisCacheModule } from "./infrastructure/cache/redis-module";
 import { Context } from "./infrastructure/context/context";
@@ -16,4 +18,6 @@ export {
   Context,
   RedisCacheModule,
   RedisCacheService,
+  KafkaModule,
+  KafkaService,
 };
