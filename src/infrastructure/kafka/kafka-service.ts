@@ -2,8 +2,7 @@ import { ConfigService } from "@nestjs/config";
 import { Transport } from "@nestjs/microservices";
 
 export class KafkaService {
-  constructor() {}
-  getOptions(groupId: string, broker: string) {
+  static getOptions(groupId: string, broker: string) {
     return {
       transport: Transport.KAFKA,
       options: {
