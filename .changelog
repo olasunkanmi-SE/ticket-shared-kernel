@@ -13,3 +13,7 @@ created base document for mogodb models
 ## [0.1.0] - 2022-04-23
 
 created context to retrieve user information while navigating through the application
+
+## [0.1.0-rc] - 2022-04-23
+
+fix build errors
